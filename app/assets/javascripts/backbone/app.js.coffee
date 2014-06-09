@@ -3,10 +3,11 @@
 
   App.addRegions
     headerRegion: "#header-region"
-    mainRegion: "main-region"
-    footerRegion: "footer-region"
+    mainRegion: "#main-region"
+    footerRegion: "#footer-region"
 
   App.addInitializer ->
+    App.module("HeaderApp").start()
     App.module("FooterApp").start()
 
   App.on "initailize:after", ->
