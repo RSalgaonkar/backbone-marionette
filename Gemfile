@@ -12,6 +12,9 @@ gem 'marionette-rails'
 gem 'eco'
 gem 'compass-rails'
 gem 'bootstrap-sass-rails'
+gem 'rabl'
+gem 'oj'
+gem	'gon'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'

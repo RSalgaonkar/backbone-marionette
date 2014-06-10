@@ -17,5 +17,6 @@
 //= require_tree ./backbone/config
 //= require backbone/app
 //= require turbolinks
+//= require_tree ./backbone/entities
 //= reuqire_tree ./backbone/apps
 //= require_tree .

@@ -1,5 +1,5 @@
 <div id="footer">
   <div class="container">
-    <p class="muted">BackBone Marionette</p>
+    <p class="muted">BackBone Marionette <%= @full_name %></p>
   </div>
 </div>
